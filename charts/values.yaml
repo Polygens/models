@@ -1,0 +1,41 @@
+replicaCount: 1
+
+image:
+  repository: docs
+  pullPolicy: IfNotPresent
+
+# imagePullSecrets: []
+# nameOverride: ""
+# fullnameOverride: ""
+
+podSecurityContext:
+  fsGroup: 2000
+
+securityContext:
+  capabilities:
+    drop:
+      - ALL
+  readOnlyRootFilesystem: true
+  runAsNonRoot: true
+  runAsUser: 1000
+
+service:
+  type: ClusterIP
+  port: 6060
+
+ingress:
+  enabled: false
+  annotations:
+    kubernetes.io/ingress.class: traefik
+
+  hosts:
+    - paths:
+        - /
+
+resources:
+  limits:
+    cpu: 100m
+    memory: 32Mi
+  requests:
+    cpu: 10m
+    memory: 16Mi
