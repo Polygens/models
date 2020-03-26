@@ -30,5 +30,5 @@ type Location struct {
 	// Location in the world
 	Location shared.Coordinate
 	// Geometry of the point of interest
-	Geometry geojson.Feature
+	Geometry *geojson.Feature `json:",omitempty"`
 }
