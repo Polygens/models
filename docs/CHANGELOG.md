@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/Polygens/models/compare/v1.1.0...v1.1.1) (2020-03-26)
+
+
+### Bug Fixes
+
+* **cicd:** vet all subfolders ([87f1155](https://github.com/Polygens/models/commit/87f11550623897073371740bde439298c284550d))
+
 # [1.1.0](https://github.com/Polygens/models/compare/v1.0.0...v1.1.0) (2020-03-26)
 
 
