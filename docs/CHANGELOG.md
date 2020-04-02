@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.2](https://github.com/Polygens/models/compare/v1.1.1...v1.1.2) (2020-04-02)
+
+
+### Bug Fixes
+
+* **docs:** presentation preparation ([c495196](https://github.com/Polygens/models/commit/c49519665a04e599b1ed8d0a5239141399ea950e))
+
 ## [1.1.1](https://github.com/Polygens/models/compare/v1.1.0...v1.1.1) (2020-03-26)
 
 
